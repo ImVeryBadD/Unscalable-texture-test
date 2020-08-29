@@ -1,0 +1,62 @@
+﻿<Window x:Class="NETFramework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NETFramework"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="490" Width="800" WindowStyle="SingleBorderWindow">
+    <Grid x:Name="LayoutRoot" Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <Canvas x:Name="Canvas" Height="100" Width="200">
+            <Ellipse
+                x:Name="Ellipse"
+                Fill="Green"
+                Height="100"
+                Width="200"
+                StrokeThickness="1"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Stroke="#0096ff">
+                <Ellipse.Effect>
+                    <local:chromaKeyTextureEffect 
+                        x:Name="EllipseChromaKey"
+                        Tolerance="0.25"
+                        ColorKey="Green">
+                        <local:chromaKeyTextureEffect.Texture>
+                            <ImageBrush 
+                                x:Name="TextureImage"
+                                ImageSource="pack://application:,,,/texture8by8v2.png"/>
+                        </local:chromaKeyTextureEffect.Texture>
+                    </local:chromaKeyTextureEffect>
+                </Ellipse.Effect>
+            </Ellipse>
+        </Canvas>
+
+        <Slider x:Name="TransitionSlider" 
+                Width="500"  
+                Grid.Row="1" 
+                Minimum="100"
+                Maximum="300"
+                ValueChanged="TransitionSlider_ValueChanged"/>
+        <Slider x:Name="ToleranceSlider" 
+                Width="500" 
+                Value="0.25"
+                Maximum="1"
+                ValueChanged="ToleranceSlider_ValueChanged" 
+                Visibility="Hidden" 
+                Grid.Row="2"/>
+        <TextBlock 
+            Text="Ellipse size" 
+            Foreground="Blue" 
+            FontSize="14" 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center" 
+            Margin="0,0,0,-355"/>
+    </Grid>
+</Window>

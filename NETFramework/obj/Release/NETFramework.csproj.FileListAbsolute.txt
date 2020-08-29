@@ -1,0 +1,15 @@
+C:\Users\wnn\source\repos\NETFramework\NETFramework\bin\Release\NETFramework.exe.config
+C:\Users\wnn\source\repos\NETFramework\NETFramework\bin\Release\NETFramework.exe
+C:\Users\wnn\source\repos\NETFramework\NETFramework\bin\Release\NETFramework.pdb
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.csprojAssemblyReference.cache
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\MainWindow.g.cs
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\App.g.cs
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework_MarkupCompile.cache
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework_MarkupCompile.lref
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\MainWindow.baml
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.g.resources
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.Properties.Resources.resources
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.csproj.GenerateResource.cache
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.exe
+C:\Users\wnn\source\repos\NETFramework\NETFramework\obj\Release\NETFramework.pdb
